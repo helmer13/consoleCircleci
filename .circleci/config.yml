@@ -14,10 +14,6 @@ jobs:
          command:
            dotnet build
      - run:
-         name: Run App
-         command:
-           dotnet run
-     - run:
          name: Run Test
          command:
            dotnet test
