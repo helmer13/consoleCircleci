@@ -17,3 +17,7 @@ jobs:
          name: Run Test
          command:
            dotnet test
+     - run:
+         name: Deploy
+         command:
+            dotnet publish -c Release -o output
