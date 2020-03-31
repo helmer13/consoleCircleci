@@ -8,7 +8,7 @@ namespace consoleCircleci
         {
 
             Metodos.Gestion gestion = new Metodos.Gestion();
-            gestion.Alfanumerico();
+           Console.WriteLine( gestion.Alfanumerico());
 
         }
     }
