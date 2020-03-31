@@ -11,7 +11,7 @@ namespace Test
         {
 
             Gestion gestion = new Gestion();
-            Assert.Equal("HOLA!!!!", gestion.Alfanumerico());
+            Assert.Equal("HOLA!!!!!!", gestion.Alfanumerico());
 
         }
     }
